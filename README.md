@@ -25,7 +25,7 @@ Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" 
 
 <details>
      <summary>Mudar imagem</summary>
-  Acesse o arquivo (main.py) e mude o ('./image/sabado.jpg') para o nome do arquivo que voce upou na pasta imagem  
+  Acesse o arquivo (main.py) e mude o ('./image/sabado.jpg') para o nome do arquivo que voce upou na pasta image  
   
 </details>
 
