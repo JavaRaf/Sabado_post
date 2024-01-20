@@ -8,7 +8,7 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      test_tok: ${{ secrets.fb_tok }}
+      fb_tok: ${{ secrets.fb_tok }}
 
     steps:
     - name: Checkout do repositório
