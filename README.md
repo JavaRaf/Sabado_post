@@ -11,7 +11,7 @@ Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" 
 <details>
   <summary>Mudar frequencia de postagem</summary>
   
-  Para alterar a Frquencia de postagem acessse o arquvio na pasta workflow e mude a variavel (- cron: '0 9 * * 6' )
+  Para alterar a Frquencia de postagem acessse o arquivo na pasta workflow e mude a variavel (- cron: '0 9 * * 6' )
     
   **m h dom mon dow**
     
