@@ -1,17 +1,15 @@
-**<p align="center">
+**<p align="center" style="color: blue;">
 Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" todo sábado
 </p>**
-
-
 
 <p align="center">
   <img src="./image/sabado.jpg" alt="Descrição da Imagem">
 </p>
 
 <details>
-  <p style="color: blue; <summary>Mudar frequencia de postagem</summary> </p>
+  <summary style="color: green;">Mudar frequencia de postagem</summary>
   
-  Para alterar a Frquencia de postagem acessse o arquivo na pasta workflow e mude a variavel (- cron: '0 9 * * 6' )
+  Para alterar a Frequência de postagem, acesse o arquivo na pasta workflow e mude a variável (- cron: '0 9 * * 6' )
     
   **m h dom mon dow**
     
@@ -24,9 +22,10 @@ Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" 
 </details>
 
 <details>
-     <summary>Mudar imagem</summary>
-  Acesse o arquivo (main.py) e mude o ('./image/sabado.jpg') para o nome do arquivo que voce upou na pasta image  
+     <summary style="color: purple;">Mudar imagem</summary>
+  Acesse o arquivo (main.py) e mude o ('./image/sabado.jpg') para o nome do arquivo que você upou na pasta image  
   
 </details>
+
 
 
