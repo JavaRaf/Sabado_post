@@ -1,1 +1,1 @@
-(./image/sabado.jpg)
+!(./image/sabado.jpg)
