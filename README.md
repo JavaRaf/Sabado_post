@@ -8,7 +8,7 @@ Codigo em Python que posta a meesma foto da Hotaru dizendo "sábado, é sábado"
 </p>
 
 
-<p align="center">
+<div align="center">
 <details>
   <summary>Intruções</summary>
 
@@ -21,5 +21,4 @@ mon representa o mês (1 a 12).
 dow representa o dia da semana (0 a 6, sendo 0 domingo).
 
 </details>
-</p>
-
+</div>
