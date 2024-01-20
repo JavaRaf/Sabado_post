@@ -7,12 +7,8 @@ Codigo em Python que posta a meesma foto da Hotaru dizendo "sábado, é sábado"
   <img src="./image/sabado.jpg" alt="Descrição da Imagem">
 </p>
 
-
-<div align="center">
-  <details>
-  <summary>Intruções</summary>
-
-
+<details>
+<summary>Intruções</summary>
   
 m h dom mon dow
   
@@ -24,5 +20,5 @@ dow representa o dia da semana (0 a 6, sendo 0 domingo).
 
 
 </details>
-</div>
+
 
