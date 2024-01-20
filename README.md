@@ -2,3 +2,8 @@
 
 
 ![hotaru](./image/sabado.jpg)
+
+
+Para mudar a frequencia de postagem mude o arquvio "python-package-conda.yml" 
+
+![](./image/cron.png)
