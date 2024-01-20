@@ -1,6 +1,9 @@
 name: Fluxo de Trabalho Python
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     - cron: '0 9 * * 6' # 
   workflow_dispatch:
