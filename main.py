@@ -8,7 +8,7 @@ access_token = os.environ.get('fb_tok')
 post_message = 'Bocchi'
 
 # Caminho para a imagem local
-local_image_path = 'image\sabado.jpg'
+local_image_path = 'image\\sabado.jpg'
 
 # URL da API do Facebook Graph para postar uma foto
 api_url = 'https://graph.facebook.com/v18.0/me/photos'
