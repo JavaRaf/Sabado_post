@@ -7,24 +7,31 @@ access_token = os.environ.get('fb_tok')
 # Substitua 'YOUR_MESSAGE' pela mensagem que você deseja postar
 post_message = 'Bocchi'
 
-# Substitua 'https://i.redd.it/5508wlhpleja1.jpg' pela URL da imagem
-image_url = 'https://i.redd.it/5508wlhpleja1.jpg'
+# Caminho para a imagem local
+local_image_path = 'image\sabado.jpg'
 
 # URL da API do Facebook Graph para postar uma foto
 api_url = 'https://graph.facebook.com/v18.0/me/photos'
 
-# Parâmetros da postagem (mensagem, URL da imagem e token de acesso)
-data = {
-    'message': post_message,
-    'url': image_url,
-    'access_token': access_token
-}
+# Abre o arquivo da imagem local
+with open(local_image_path, 'rb') as image_file:
+    # Parâmetros da postagem (mensagem, arquivo da imagem e token de acesso)
+    data = {
+        'message': post_message,
+        'access_token': access_token
+    }
 
-# Faça a solicitação POST
-response = requests.post(api_url, data=data)
+    # Arquivo da imagem é enviado como um arquivo
+    files = {
+        'source': image_file
+    }
+
+    # Faça a solicitação POST com os parâmetros e o arquivo
+    response = requests.post(api_url, data=data, files=files)
 
 # Verifica a resposta
 if response.status_code == 200:
-    print("Postagem com imagem da internet realizada com sucesso!")
+    print("Postagem com imagem local realizada com sucesso!")
 else:
     print(f"Erro {response.status_code}: {response.json()}")
+
