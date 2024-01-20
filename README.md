@@ -10,7 +10,7 @@ Codigo em Python que posta a meesma foto da Hotaru dizendo "sábado, é sábado"
 
 <p align="center">
 <details>
-  <summary>Click Here to Show</summary>
+  <summary>Intruções</summary>
   
   ![Descrição da Imagem](./image/cron.png)
 
