@@ -2,7 +2,7 @@
 
 
 <p align="center">
-  <img src="./imagem/sabado.jpg" alt="Descrição da Imagem">
+  <img src="./image/sabado.jpg" alt="Descrição da Imagem">
 </p>
 
 
