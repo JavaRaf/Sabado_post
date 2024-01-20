@@ -2,7 +2,7 @@ import os
 import requests
 
 # Recebe a variável de ambiente test_tok
-access_token = os.environ.get('test_tok')
+access_token = os.environ.get('fb_tok')
 
 # Substitua 'YOUR_MESSAGE' pela mensagem que você deseja postar
 post_message = 'Bocchi'
