@@ -7,7 +7,7 @@ access_token = os.environ.get('fb_tok')
 # Substitua 'YOUR_MESSAGE' pela mensagem que você deseja postar
 post_message = 'Bocchi'
 
-# Caminho para a imagem local
+# Caminho para a imagem local com duas barras invertidas para evitar escape
 local_image_path = 'image\\sabado.jpg'
 
 # URL da API do Facebook Graph para postar uma foto
@@ -34,4 +34,3 @@ if response.status_code == 200:
     print("Postagem com imagem local realizada com sucesso!")
 else:
     print(f"Erro {response.status_code}: {response.json()}")
-
