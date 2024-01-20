@@ -8,7 +8,12 @@ Codigo em Python que posta a meesma foto da Hotaru dizendo "sábado, é sábado"
 </p>
 
 
+<p align="center">
+<details>
+  <summary>Click Here to Show</summary>
+  
+  ![Descrição da Imagem](./image/cron.png)
 
-Para mudar a frequencia de postagem mude o arquvio "python-package-conda.yml" 
+</details>
+</p>
 
-![](./image/cron.png)
