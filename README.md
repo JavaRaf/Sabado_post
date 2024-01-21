@@ -1,9 +1,8 @@
-
-<p align="center">
+:::
 ## Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" todo sábado
 
-  <img src="./image/sabado.jpg"   alt="Descrição da Imagem">
-</p>
+  <img src="./image/sabado.jpg"   alt="Descrição da Imagem"> :::
+
 
 <details style="color: blue;">
   <summary>Mudar frequencia de postagem</summary>  
