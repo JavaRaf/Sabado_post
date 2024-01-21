@@ -1,7 +1,6 @@
 
-::: ## Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" todo sábado
-
-  <img src="./image/sabado.jpg"   alt="Descrição da Imagem"> :::
+## Codigo em Python que posta a mesma foto da Hotaru dizendo "sábado, é sábado" todo sábado
+  <img src="./image/sabado.jpg"   alt="Descrição da Imagem"> 
 
 
 <details style="color: blue;">
