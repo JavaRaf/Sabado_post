@@ -8,7 +8,7 @@
   
   Para alterar a Frquencia de postagem acessse o arquivo na pasta workflow e mude a variavel (- cron: '0 9 * * 6' )
     
-  <h3 m h dom mon dow </h3>
+   m h dom mon dow 
     
  - m representa os minutos (0 a 59).  
  - h representa as horas (0 a 23).  
